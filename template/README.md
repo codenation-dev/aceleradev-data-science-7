@@ -1,27 +1,30 @@
-# [`projeto_final`]
+# [`aceleradev-data-science-7`]
 > Simple project description.
 
-This model is a `type_of_modeling` that `do_something` to solve `this_problem` aimed to the clients of the `some_vertical`.
+O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
 
 ## Stakeholders
 > Describe the people involved in this project
 
 | Role                 | Responsibility         | Full name                | e-mail       |
 | -----                | ----------------       | -----------              | ---------    |
-| Data Scientist       | Author                 | [``]            | [`andsil@gmail.com`] |
-| Project Owner        | Co-author              | [`First name Last Name`] | [`e-mail`]   |
+| Data Scientist       | Author                 | [`Claudio Silva`]        | [`andsil@gmail.com`] |
+| Data Scientist       | Author             	| [`Wagner`] 		   | [`wagnerfs1989@hotmail.com`]   |
 
 ## Usage
 > Describe how to reproduce your model
 
-Usage is standardized across models. There are two main things you need to know, the development workflow and the Makefile commands.
+Algumas empresas gostariam de saber quem são as demais empresas em um determinado mercado (população) que tem maior probabilidade se tornarem seus próximos clientes. Ou seja, a sua solução deve encontrar no mercado quem são os leads mais aderentes dado as características dos clientes presentes no portfólio do usuário.
 
-Both are made super simple to work with Git and Docker while versioning experiments and workspace.
+Além disso, sua solução deve ser agnóstica ao usuário. Qualquer usuário com uma lista de clientes que queira explorar esse mercado pode extrair valor do serviço.
 
-All you'll need to have setup is Docker and Git, which you probably already have. If you don't, feel free to ask for help.
+Para o desafio, deverão ser consideradas as seguintes bases:
+
+Mercado: Base com informações sobre as empresas do Mercado a ser considerado. Portfolio 1: Ids dos clientes da empresa 1 Portfolio 2: Ids dos clientes da empresa 2 Portfolio 3: Ids dos clientes da empresa 3
+
+Obs: todas as empresas(ids) dos portfolios estão contidos no Mercado(base de população).
 
 Makefile commands can be accessed using `make help`.
-
 
 Make sure that **docker** is installed.
 
